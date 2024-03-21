@@ -1,0 +1,15 @@
+.rojo {
+	color: red;
+}
+
+#amarillo {
+	color: yellow;
+}
+
+ul li {
+	list-style-type: circle;	/* Anotación en CSS */
+}
+
+table, th, td {
+	border: 1px solid black;
+}
