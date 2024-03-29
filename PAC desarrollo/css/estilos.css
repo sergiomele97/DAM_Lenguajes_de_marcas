@@ -1,0 +1,37 @@
+.sombra {	/* clase sombra aplicada en imagen y tabla */
+	box-shadow: 2px 2px;
+}
+
+.rosa {
+	background-color: hotpink;
+}
+
+table {		/* selectores de elemento */
+	margin-top: 10px; /* separación de 10px */
+	
+}
+
+table, th, td {
+	border-style: solid;
+	border-width: 3px;
+	border-color: red;
+	border-collapse: collapse; /* Junta los bordes en uno */
+}
+
+th {
+	font-family: verdana;
+	background-color: pink;
+}
+
+td {
+	padding-left: 5px;
+	font-family: impact;
+	
+}
+
+#reproduciendo {
+	background-color: yellow;
+	font-style: black;
+	color: red;
+	text-shadow: 2px 2px black;
+}
