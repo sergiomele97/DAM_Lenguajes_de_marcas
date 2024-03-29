@@ -1,0 +1,52 @@
+* {
+	font-family: calibri;	/* Todo lo que no sea encabezado de fieldset, será calibri */
+	margin-top: 10px;
+	font-weight: bolder;
+	color: darkblue;
+	font-family: 
+}
+
+fieldset {
+	font-family: verdana;
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+
+legend{
+	font-size: 120%;
+}
+
+form {
+	background-color: skyblue;	
+}
+
+input {
+	margin-top: 20px;
+}
+
+button {
+	padding: 25px;
+	color: skyblue;
+	background-color: darkblue;
+	font-size: 200%;
+	font-weight: normal;
+}
+
+a {
+	color: skyblue;
+	text-decoration: none;
+}
+
+.textinput {
+	height: 15px;
+}
+
+
+#categoria {
+	margin-top: 0px;
+}
+
+
+#botonvolver {
+	font-family: impact;
+}

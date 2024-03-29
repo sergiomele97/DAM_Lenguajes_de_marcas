@@ -9,6 +9,45 @@
 		
 	</head>
 	<body>
-		
+		<form action="Ejercicio2B.html" method="get" target="_self" name"Formulario_compra">
+			<fieldset>
+				<legend>Entradas</legend>
+				<label for="N_entradas">Número de entradas:</label>		<!-- for en label enlaza con name en input/select...-->
+				<select name"N_entradas">
+					<option>1</option>	<!-- Elemento select que contiene elementos option -->
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br>
+				<label for"categoria">Categoría:</label><br>
+				<select id="categoria">
+					<option>Pista general</option>
+					<option>Asiento cercano</option>
+					<option>Asiento lejano</option>
+				</select><br>
+			</fieldset>
+			<fieldset>
+				<legend>Datos comprador</legend>
+				<label for="nombre">Nombre:</label>
+				<input name="nombre" type="text" class="textinput" required><br>	<!-- Atributo required para obligar a rellenarlo -->
+				<label for="apellidos">Apellidos:</label>
+				<input name="apellidos" type="text" class="textinput" required><br>
+				<label for="e-mail">E-mail:</label>
+				<input name="e-mail" type="text" class="textinput" required><br>
+				<label for="FechaN">Fecha de nacimiento:</label>
+				<input name="FechaN" type="date" required><br>
+			</fieldset>
+			<fieldset>
+				<legend>Pago</legend>
+				<label for="metodo_pago">Seleciona método de pago</label><br>
+				<input type="radio" name="metodo_pago" value="visa" required><img src="img/visaLogo.png" width="50px"><br>	<!-- Con poner required en el primero vale-->
+				<input type="radio" name="metodo_pago" value="mastercard"><img src="img/masterLogo.png" width="50px"><br>	<!-- Value inddentifica el radio boton seleccionado -->
+				<input type="radio" name="metodo_pago" value="PayPal"><img src="img/paypalLogo.png" width="50px"><br>
+				<input type="radio" name="metodo_pago" value="bizum"><img src="img/bizumLogo.jpg" width="50px"><br>
+				<input name="condiciones" type="checkbox" required></input><label for="condiciones">Acepto las condiciones de compra</label><br>
+				<button name="boton_pago">Proceder al pago</button>
+			</fieldset>
+		</form>
 	</body>
 </html>
