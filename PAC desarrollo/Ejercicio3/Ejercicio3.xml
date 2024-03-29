@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canciones>
+
+	<cancion>
+		<pais>Alemania</pais>
+		<titulos>
+			<original>Rockstars</original>
+			<castellano>Estrellas del rock</castellano>
+		</titulos>
+		<artista>Malik Harris</artista>
+		<idioma>Inglés</idioma>
+		<video>D3FN2umFaM8</video>
+	</cancion>
+	
+	<cancion>
+		<pais>España</pais>
+		<titulos>
+			<original>SloMo</original>
+			<castellano>Cámara lenta</castellano>
+		</titulos>
+		<artista>Chanel</artista>
+		<idioma>Español</idioma>
+		<idioma>Inglés</idioma>
+		<video>TO2yGXVQCfo</video>
+	</cancion>
+	
+	<cancion>
+		<pais>Finlandia</pais>
+		<titulos>
+			<original>Jezebel</original>
+			<castellano>Jezebel</castellano>
+		</titulos>
+		<artista>The Rasmus</artista>
+		<idioma>Inglés</idioma>
+		<video>XtMfCf3vFbc</video>
+	</cancion>
+	
+	<cancion>
+		<pais>Italia</pais>
+		<titulos>
+			<original>Brividi</original>
+			<castellano>Escalofríos</castellano>
+		</titulos>
+		<artista>Mahmood &amp; Blanco</artista>		
+		<idioma>Italiano</idioma>
+		<video>4MgMhzfUmiA</video>
+	</cancion>
+	
+	<cancion>
+		<pais>Ucrania</pais>
+		<titulos>
+			<original>Stefania</original>
+			<castellano>Estefanía</castellano>
+		</titulos>
+		<artista>Kalush Orchstra</artista>
+		<idioma>Ucraniano</idioma>
+		<video>UiEGVYOruLk</video>
+	</cancion>
+
+</canciones>
